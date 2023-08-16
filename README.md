@@ -1,5 +1,5 @@
 **FAKE CURRENCY DETECTION**
-**
+***
 Counterfeit currency detection is a critical research domain with far-reaching economic implications and daily transaction security. Financial experts employ predictive analysis to combat counterfeit trends, a complex challenge given the evolving nature of fake currency.The development of a robust counterfeit currency detection system necessitates the integration of various software tools and content. The code leverages Python's OpenCV library for image processing, enabling the extraction of key features from currency images. Matplotlib aids in visualizing the image transformations and results. NumPy is employed for efficient numerical operations and array manipulation.
 
 The procedure involves several steps: loading real and fake currency images, converting them to grayscale, and isolating specific regions of interest. Furthermore, HSV color space conversion is applied to capture nuanced color information. Subsequently, morphological operations, thresholding, and connected components analysis are conducted to identify relevant image components.The implementation also includes a critical function to assess the correlation between transparent features of real and fake currency. This analysis, coupled with the count of connected components, aids in determining the authenticity of the currency.
